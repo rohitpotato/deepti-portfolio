@@ -1,0 +1,13 @@
+{
+ //...
+ "editor.defaultFormatter": "esbenp.prettier-vscode",
+ "eslint.probe": ["javascript", "javascriptreact", "vue"],
+ // Runs Prettier, then ESLint
+ "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll.eslint"],
+ "eslint.alwaysShowStatus": true,
+ "editor.formatOnSave": true,
+ // turn it off for JS and JSX, we will do this via eslint
+ "[javascript, javascriptreact]": {
+  "editor.formatOnSave": false
+ }
+}
