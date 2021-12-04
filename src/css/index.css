@@ -2,6 +2,111 @@
 @tailwind components;
 @tailwind utilities;
 
-.new {
- color: red;
+html {
+ scroll-behavior: smooth;
+}
+
+body {
+ background: rgb(18, 18, 18);
+}
+
+.intro-heading {
+ font-size: clamp(2rem, 5vw, 4.5rem);
+}
+
+.work-experience-heading {
+ font-size: clamp(2rem, 2.5vw, 3.5rem);
+}
+
+.skills {
+ display: grid;
+ grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+ grid-gap: 3rem 4rem;
+}
+
+@font-face {
+ font-family: 'icomoon';
+ src: url('fonts/icomoon.eot?q33mge');
+ src: url('fonts/icomoon.eot?q33mge#iefix') format('embedded-opentype'),
+  url('fonts/icomoon.ttf?q33mge') format('truetype'),
+  url('fonts/icomoon.woff?q33mge') format('woff'),
+  url('fonts/icomoon.svg?q33mge#icomoon') format('svg');
+ font-weight: normal;
+ font-style: normal;
+ font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+ /* use !important to prevent issues with browser extensions that change fonts */
+ font-family: 'icomoon' !important;
+ speak: never;
+ font-style: normal;
+ font-weight: normal;
+ font-variant: normal;
+ text-transform: none;
+ line-height: 1;
+
+ /* Better Font Rendering =========== */
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ font-size: 32px;
+}
+
+.icon-pen:before {
+ content: '\e900';
+ color: #5221e6;
+}
+.icon-behance .path1:before {
+ content: '\e901';
+ color: rgb(255, 255, 255);
+}
+.icon-behance .path2:before {
+ content: '\e902';
+ margin-left: -1em;
+ color: rgb(82, 33, 230);
+}
+.icon-play:before {
+ content: '\e903';
+}
+.icon-phone:before {
+ content: '\e904';
+ color: #fff;
+}
+.icon-mail:before {
+ content: '\e905';
+ color: #fff;
+}
+.icon-linkedin:before {
+ content: '\e906';
+ color: #fff;
+}
+.icon-home:before {
+ content: '\e907';
+}
+.icon-menu:before {
+ content: '\e908';
+}
+.icon-dribbble .path1:before {
+ content: '\e909';
+ color: rgb(255, 255, 255);
+}
+.icon-dribbble .path2:before {
+ content: '\e90a';
+ margin-left: -1em;
+ color: rgb(0, 0, 0);
+}
+.icon-puzzle:before {
+ content: '\e90b';
+ color: #5221e6;
+}
+.icon-smartphone:before {
+ content: '\e90c';
+}
+.icon-vector:before {
+ content: '\e90d';
+ color: #5221e6;
+}
+.icon-close:before {
+ content: '\e90e';
 }

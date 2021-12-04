@@ -4,12 +4,55 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+   href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Saira:wght@400;600&family=Sen:wght@400;700;800&display=swap"
+   rel="stylesheet"
+  />
   <link href="./css/index.css" rel="stylesheet" />
   <link />
   <title>Document</title>
  </head>
  <body>
-  <h1 class="new">Hello asdsasdaasdas yelllo qyayasdhoalksjd</h1>
+  <div class="min-h-screen w-screen bg-bg-dark lg:pb-[72px]">
+   <project-header></project-header>
+   <project-hero></project-hero>
+   <!-- Work Experience -->
+   <div
+    id="experience"
+    class="lg:mt-28 md:mt-24 mt-16 lg:px-[72px] md:px-10 px-5"
+   >
+    <div id="work-experience-header" class="space-y-8">
+     <div class="text-base text-light-text leading-6 font-bold font-sen">
+      WORK EXPERIENCE
+     </div>
+     <div class="work-experience-heading text-white font-sen font-bold">
+      Companies I have worked with
+     </div>
+    </div>
+    <div id="experiences"></div>
+   </div>
+   <!-- SkillSet -->
+   <div class="lg:mt-64 md:mt-24 mt-[72px] lg:px-[72px] md:px-10 px-5">
+    <div class="flex gap-[72px] lg:flex-row flex-col">
+     <div id="skillset-header" class="flex flex-col gap-6">
+      <div
+       id="skillset-title"
+       class="lg:text-[54px] text-3xl text-white font-sen font-bold leading-[66px]"
+      >
+       Skillset
+      </div>
+      <div id="skillset-description" class="font-sen text-light-text">
+       As I am a junior designer, I’m still learning everyday. And here are some
+       of the skills that I gained in previous one and a half year of working in
+       BRIDGEi2i.
+      </div>
+     </div>
+     <div class="skills"></div>
+    </div>
+   </div>
+  </div>
  </body>
  <script src="./index.js" type="text/javascript" />
 </html>
