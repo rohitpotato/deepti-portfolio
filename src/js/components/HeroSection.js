@@ -1,5 +1,5 @@
 const template = document.createElement('template');
-template.id = 'project-hero';
+template.id = 'hero';
 template.innerHTML = `   
 <div class="flex flex-col md:flex-row">
 <div class="hero-image md:w-[40%] relative md:block flex justify-center">

@@ -16,8 +16,8 @@
  </head>
  <body>
   <div class="min-h-screen w-screen bg-bg-dark lg:pb-[72px]">
-   <project-header></project-header>
-   <project-hero></project-hero>
+   <custom-header></custom-header>
+   <hero-section></hero-section>
    <!-- Work Experience -->
    <div
     id="experience"
@@ -35,7 +35,7 @@
    </div>
    <!-- SkillSet -->
    <div
-    id="skillset-container"
+    id="my-skillset"
     class="lg:mt-64 md:mt-24 mt-[72px] lg:px-[72px] md:px-10 px-5"
    >
     <div class="flex gap-[72px] lg:flex-row flex-col">
@@ -55,62 +55,100 @@
      <div class="skills"></div>
     </div>
    </div>
+   <!--  -->
+   <div
+    id="my-workflow"
+    class="lg:mt-64 md:mt-24 mt-[72px] lg:px-[72px] md:px-10 px-5"
+   >
+    <div id="workflow-header" class="flex flex-col gap-6 lg:w-1/2 w-full">
+     <div
+      id="workflow-title"
+      class="lg:text-[54px] text-3xl text-white font-sen font-bold leading-[66px]"
+     >
+      My Workflow
+     </div>
+     <div id="workflow-description" class="font-sen text-light-text">
+      <p>
+       I focus on UI Design & follow the standard Five stages (Non-Linear &
+       Iterative of Design Thinking Process. I’m passionate about User
+       Validation and try to keep my solution around users.
+      </p>
+      <p>
+       I shape any product by iterating the process multiple times to get a near
+       better solution, as there is no perfect solution to any of the problems.
+      </p>
+     </div>
+    </div>
+    <!-- Desktop workflow -->
+    <div class="lg:block hidden mt-28">
+     <img
+      src="https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/workflow/desktop/Workflow.png"
+      alt="desktop-workflow"
+     />
+    </div>
+    <!-- Mobile Workflow -->
+    <div
+     class="lg:hidden flex flex-wrap md:justify-start justify-center mt-9 gap-16"
+    >
+     <img
+      src="https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/workflow/tablet/wf1.png"
+      alt="tablet-workflow"
+      width="200"
+      height="380"
+     />
+     <img
+      src="https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/workflow/tablet/wf2.png"
+      alt="tablet-workflow"
+      width="200"
+      height="380"
+     />
+     <img
+      src="https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/workflow/tablet/wf3.png"
+      alt="tablet-workflow"
+      width="200"
+      height="380"
+     />
+     <img
+      src="https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/workflow/tablet/wf4.png"
+      alt="tablet-workflow"
+      width="200"
+      height="380"
+     />
+     <img
+      src="https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/workflow/tablet/wf5.png"
+      alt="tablet-workflow"
+      width="200"
+      height="380"
+     />
+    </div>
+   </div>
    <!-- Projects -->
    <div
     class="lg:mt-64 md:mt-24 mt-[72px] lg:px-[72px] md:px-10 px-5"
-    id="projects-container"
+    id="my-projects"
    >
-    <div id="projects-header">
-     <div
-      id="project-header-title"
-      class="text-base text-light-text leading-6 font-bold font-sen"
-     >
-      MY PROJECTS
-     </div>
-     <div
-      class="lg:text-[54px] text-3xl text-white font-sen font-bold leading-[66px]"
-      id="project-header-description"
-     >
-      Work that I’ve done for the past 1.5 years
-     </div>
-    </div>
-    <div id="project-1">
-     <div class="card-bg w-full relative h-[38rem]">
-      <img
-       src="https://www.cheatsheet.com/wp-content/uploads/2021/09/Zendaya-3.jpg"
-       alt="project-img"
-       class="max-w-[75%] h-auto absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
-      />
-     </div>
-     <div class="lg:p-8 p-6 bg-primary-color-dark flex flex-col gap-4">
-      <div class="font-sen font-bold text-white text-base leading-[29px]">
-       Title
-      </div>
-      <div class="text-base font-sen text-dark-text leading-6">Title</div>
-      <a href="#" class="font-sen text-white hover:underline"
-       >View Case Study</a
+    <div class="c-grid">
+     <div class="grid-col grid-col--1"></div>
+     <div class="grid-col grid-col--2"></div>
+
+     <div class="grid-item" id="projects-header">
+      <div
+       id="custom-header-title"
+       class="text-base text-light-text leading-6 font-bold font-sen"
       >
-     </div>
-    </div>
-    <div id="project-1">
-     <div class="card-bg w-full relative h-[38rem]">
-      <img
-       src="https://www.cheatsheet.com/wp-content/uploads/2021/09/Zendaya-3.jpg"
-       alt="project-img"
-       class="max-w-[75%] h-auto absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
-      />
-     </div>
-     <div class="lg:p-8 p-6 bg-primary-color-dark flex flex-col gap-4">
-      <div class="font-sen font-bold text-white text-base leading-[29px]">
-       Title
+       MY PROJECTS
       </div>
-      <div class="text-base font-sen text-dark-text leading-6">Title</div>
-      <a href="#" class="font-sen text-white hover:underline"
-       >View Case Study</a
+      <div
+       class="lg:text-[54px] text-3xl text-white font-sen font-bold"
+       id="custom-header-description"
       >
+       Work that I’ve done for the past 1.5 years
+      </div>
      </div>
     </div>
    </div>
+   <!-- Contact Section -->
+   <contact-me></contact-me>
   </div>
  </body>
  <script src="./index.js" type="text/javascript" />

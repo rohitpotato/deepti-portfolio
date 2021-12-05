@@ -1,19 +1,29 @@
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
+import ProjectCard from '../components/Project';
 import Skill from '../components/Skill';
+import Contact from '../components/Contact';
 
 const components = [
  {
-  name: 'project-header',
+  name: 'custom-header',
   component: Header,
  },
  {
-  name: 'project-hero',
+  name: 'hero-section',
   component: HeroSection,
  },
  {
-  name: 'project-skill',
+  name: 'my-skill',
   component: Skill,
+ },
+ {
+  name: 'project-card',
+  component: ProjectCard,
+ },
+ {
+  name: 'contact-me',
+  component: Contact,
  },
 ];
 

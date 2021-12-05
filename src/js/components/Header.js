@@ -4,7 +4,7 @@ template.innerHTML = `
 <header
  class="w-full bg-primary-color-dark flex items-center gap-8 lg:px-[72px] md:px-10 px-5 sticky top-0 left-0 z-10"
 >
- <a>
+ <a href="#">
   <span class="icon-pen" />
  </a>
  <div class="ml-auto gap-8 flex">
@@ -20,11 +20,13 @@ template.innerHTML = `
    Workflow
   </a>
   <a
+   href="#my-projects"
    class="font-sen text-light-text py-8 px-6 cursor-pointer lg:flex items-center hidden"
   >
    Work
   </a>
   <a
+   href="#contact-me"
    class="font-sen text-light-text py-8 px-6 cursor-pointer hidden sm:flex items-center"
   >
    Contact Me

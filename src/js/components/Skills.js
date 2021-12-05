@@ -8,7 +8,7 @@ class Skills {
  }
 
  generateSkill({ title, description, icon }) {
-  return `<project-skill>
+  return `<my-skill>
     <span class="${icon}" slot="icon"></span>
     <span
     class="text-white font-sen font-bold text-2xl leading-[29px]"
@@ -22,7 +22,7 @@ class Skills {
     >
         ${description}
     </span>
-</project-skill>
+</my-skill>
  `;
  }
 
