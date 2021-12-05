@@ -68,3 +68,41 @@ export const skills = [
   icon: iconMapping.smartphone,
  },
 ];
+
+export const projects = [
+ {
+  images: [],
+  title: 'Cisco-CI Gateway Search Engine',
+  description:
+   'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i',
+  type: 'professional',
+ },
+ {
+  images: [],
+  title: 'GHD Emmision Web Application',
+  description:
+   'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i',
+  type: 'professional',
+ },
+ {
+  images: [],
+  title: 'Residual Waste Forcasting Tool',
+  description:
+   'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i',
+  type: 'professional',
+ },
+ {
+  images: [],
+  title: 'CLOROX DailyBriefing Mobile App',
+  description:
+   'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i',
+  type: 'personal',
+ },
+ {
+  images: [],
+  title: 'Whatsapp Redesign',
+  description:
+   'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i',
+  type: 'personal',
+ },
+];

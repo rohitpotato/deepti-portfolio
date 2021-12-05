@@ -24,6 +24,18 @@ body {
  grid-gap: 3rem 4rem;
 }
 
+#projects-container {
+ display: grid;
+ grid-gap: 1rem;
+ grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+ grid-template-rows: auto 1fr;
+ grid-auto-flow: dense;
+}
+
+.card-bg {
+ background: linear-gradient(313.45deg, #5221e6 0%, rgba(82, 33, 230, 0) 100%);
+}
+
 @font-face {
  font-family: 'icomoon';
  src: url('fonts/icomoon.eot?q33mge');
