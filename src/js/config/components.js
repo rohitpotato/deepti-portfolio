@@ -3,6 +3,7 @@ import HeroSection from '../components/HeroSection';
 import ProjectCard from '../components/Project';
 import Skill from '../components/Skill';
 import Contact from '../components/Contact';
+import MobileMenu from '../components/MobileMenu';
 
 const components = [
  {
@@ -24,6 +25,10 @@ const components = [
  {
   name: 'contact-me',
   component: Contact,
+ },
+ {
+  name: 'mobile-menu',
+  component: MobileMenu,
  },
 ];
 

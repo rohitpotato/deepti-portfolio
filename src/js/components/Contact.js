@@ -32,7 +32,7 @@ id="contact-me"
   <a
    href="mailto:deepti.mmm98@gmail.com"
    target="blank"
-   class="text-light-text font-sen text-sm leading-4 hover:underline"
+   class="text-light-text font-sen text-sm leading-4 hover:underline break-all"
    >deepti.mmm98@gmail.com</a
   >
  </div>
@@ -41,7 +41,7 @@ id="contact-me"
   <a
    target="blank"
    href="https://linkedin.com/in/theinfamoustomato218/"
-   class="text-light-text font-sen text-sm leading-4 hover:underline"
+   class="text-light-text font-sen text-sm leading-4 hover:underline break-all"
    >linkedin.com/in/theinfamoustomato218/</a
   >
  </div>
@@ -50,7 +50,7 @@ id="contact-me"
   <a
    target="blank"
    href="https://behance.net/deeptiverma"
-   class="text-light-text font-sen text-sm leading-4 hover:underline"
+   class="text-light-text font-sen text-sm leading-4 hover:underline break-all"
    >behance.net/deeptiverma</a
   >
  </div>
@@ -59,7 +59,7 @@ id="contact-me"
   <a
    target="blank"
    href="https://dribbble.com/theinfamoustomato218"
-   class="text-light-text font-sen text-sm leading-4 hover:underline"
+   class="text-light-text font-sen text-sm leading-4 hover:underline break-all"
    >dribbble.com/theinfamoustomato218</a
   >
  </div>

@@ -30,7 +30,7 @@ template.innerHTML = `
     delivering intuitive and user centric B2B solutions.
    </div>
    <div class="text-light-text font-sen text-lg leading-6">
-    I’m Potterhead & love to dance.
+    I’m a Potterhead & love to dance.
    </div>
   </div>
   <div class="mt-[72px]" id="get-in-touch-cta">

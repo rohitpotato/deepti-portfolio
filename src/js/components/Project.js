@@ -16,6 +16,7 @@ template.innerHTML = `
     src=""
     alt="project-img"
     class="max-w-[75%] h-auto absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
+    loading="lazy"
     />
 </div>
 <div class="lg:p-8 p-6 bg-primary-color-dark flex flex-col gap-4">
