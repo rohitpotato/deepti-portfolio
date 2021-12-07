@@ -67,6 +67,7 @@ module.exports = () => ({
   }),
   new MiniExtractCSSPlugin({
    ignoreOrder: true,
+   filename: '[name].[contenthash].css',
   }),
  ],
 });

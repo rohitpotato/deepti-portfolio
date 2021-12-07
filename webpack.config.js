@@ -18,8 +18,8 @@ module.exports = (env) => {
     main: path.resolve(__dirname, './src/index.js'),
    },
    output: {
-    path: path.resolve(__dirname, './public/dist'),
-    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, './dist'),
+    filename: '[name].[contenthash].js',
    },
    module: {
     rules: [
