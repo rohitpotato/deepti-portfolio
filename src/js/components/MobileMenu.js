@@ -2,7 +2,7 @@ const template = document.createElement('template');
 template.innerHTML = `
 <div
 id="mobile-header"
-class="fixed z-20 top-0 left-0 h-screen w-screen bg-black hidden items-center justify-center lg:hidden"
+class="fixed z-20 top-0 left-0 h-screen w-screen backdrop-filter backdrop-brightness-[.1] hidden items-center justify-center lg:hidden"
 >
 <button id="close-mobile-menu" class="absolute top-3 right-3">
  <span class="icon-close text-white">&times;</span>
