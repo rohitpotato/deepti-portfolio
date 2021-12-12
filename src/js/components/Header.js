@@ -68,11 +68,6 @@ class Header extends HTMLElement {
   this.appendChild(document.importNode(template.content, true));
  }
 
- getHashValue(key) {
-  const matches = location.hash.match(new RegExp(`${key}=([^&]*)`));
-  return matches ? matches[1] : null;
- }
-
  addRouteListener() {
   window.addEventListener('hashchange', (evt) => {
    const { oldURL } = evt;

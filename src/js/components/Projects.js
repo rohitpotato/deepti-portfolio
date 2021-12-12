@@ -15,7 +15,9 @@ class Projects {
    .forEach(({ title, images, description, url, type }) => {
     const div = document.createElement('div');
     div.innerHTML = `<project-card imagehigh="${(images && images.high) || ''}"
-    } title='${title}' description="${description}" url="${url}" type="${type}"></project-card>`;
+    } imagemedium='${
+     (images && images.medium) || ''
+    }' title='${title}' description="${description}" url="${url}" type="${type}"></project-card>`;
     while (div.firstChild) {
      fragment.appendChild(div.firstChild);
     }
@@ -29,7 +31,7 @@ class Projects {
    .filter(({ type }) => type === 'personal')
    .forEach(({ title, images, description, url, type }) => {
     const div = document.createElement('div');
-    div.innerHTML = `<project-card imagehigh='${images.high}' title='${title}' description="${description}" url="${url}" type="${type}"></project-card>`;
+    div.innerHTML = `<project-card imagehigh='${images.high}' imagemedium='${images.medium}' title='${title}' description="${description}" url="${url}" type="${type}"></project-card>`;
     while (div.firstChild) {
      fragment.appendChild(div.firstChild);
     }

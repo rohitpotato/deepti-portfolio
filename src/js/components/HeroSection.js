@@ -3,10 +3,14 @@ template.id = 'hero';
 template.innerHTML = `   
 <div class="flex flex-col md:flex-row">
 <div class="hero-image md:w-[40%] relative md:block flex justify-center">
- <img
-  src="https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/high/hero.png"
-  class="object-contain md:absolute top-1/2 left-[65%] md:-translate-x-2/4 md:-translate-y-2/4 md:scale-125 md:mt-0 -mb-10"
- />
+<picture>
+    <source media="(min-width: 960px)"
+        srcset="https://res.cloudinary.com/dh14yyu2p/image/upload/v1639201391/deepti-portfolio/desktop/rafiki_f6mvaw.webp">
+    <source media="(min-width: 320px)"
+        srcset="https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202203/deepti-portfolio/tablet/hero2_hqwkma.webp">
+    <img class="object-contain md:absolute top-1/2 left-[65%] md:-translate-x-2/4 md:-translate-y-2/4 md:scale-125 md:mt-0 -mb-10"
+        src="https://res.cloudinary.com/dh14yyu2p/image/upload/v1639201391/deepti-portfolio/desktop/rafiki_f6mvaw.webp" alt="This cat is all business">
+</picture>
 </div>
 <div
  class="bg-primary-color-dark flex items-center justify-center md:w-[60%] pt-[120px] py-[72px] pl-[10%] pr-[1%] md:pr-[5%]"

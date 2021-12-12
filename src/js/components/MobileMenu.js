@@ -63,9 +63,7 @@ class MobileMenu extends HTMLElement {
 
  addNavListener() {
   this.mobileMenu.addEventListener('click', (e) => {
-   console.log('HERE?');
    if (e.target.id === 'nav-link') {
-    console.log('AIO?');
     this.setAttribute('isopen', false);
    }
   });

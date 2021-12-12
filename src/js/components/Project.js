@@ -10,18 +10,22 @@ const template = document.createElement('template');
 const textTemplate = document.createElement('template');
 template.innerHTML = `
 <div class="grid-item" id="project-">
-<div class="card-bg w-full relative md:h-[38rem] h-[19rem]">
-    <img
-    id="image"
-    src=""
-    alt="project-img"
-    class="max-w-[75%] h-auto absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
-    loading="lazy"
-    />
+    <div class="card-bg relative w-full md:h-[38rem] h-[19rem]">
+    <div class="">
+        <picture>
+            <source id="src1" media="(min-width: 960px)">
+            <source id="src2" media="(min-width: 320px)">       
+            <img
+                id="image"
+                alt="project-img"
+                loading="lazy"
+                class=" max-w-full max-h-full m-0 p-0 object-contain absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
+            />
+        </picture>
+    </div>
 </div>
 <div class="lg:p-8 p-6 bg-primary-color-dark flex flex-col gap-4">
     <div id="title" class="font-sen font-bold text-white text-base leading-[29px]">
-        
     </div>
     <div id="description" class="text-base font-sen text-dark-text leading-6">$</div>
     <a id="url" href="" class="font-sen text-white hover:underline"
@@ -30,12 +34,7 @@ template.innerHTML = `
 </div>
 `;
 
-textTemplate.innerHTML = `
-<div
-class="lg:text-[54px] text-3xl text-white font-sen font-bold lg:leading-[66px] grid-item full"
-id="title"
->
-</div>`;
+textTemplate.innerHTML = `<div class="lg:text-[54px] text-3xl text-white font-sen font-bold lg:leading-[66px] grid-item full" id="title"></div>`;
 
 const generateTemplate = ({
  url,
@@ -46,9 +45,10 @@ const generateTemplate = ({
  title,
 }) => {
  const clone = document.importNode(template.content, true);
- clone.querySelector(`#image`).src = imageHigh;
- //  clone.querySelector(`#${IMAGE_MEDIUM}`).src = imageMedium;
- //  clone.querySelector(`#${IMAGE_LOW}`).src = imageLow;
+ const pElement = clone.querySelector(`picture`);
+ pElement.querySelector('#src1').srcset = imageHigh;
+ pElement.querySelector('#src2').srcset = imageMedium;
+ pElement.querySelector('img').src = imageHigh;
  clone.querySelector(`#${TITLE}`).textContent = title;
  clone.querySelector(`#${DECSRIPTION}`).textContent = description;
  clone.querySelector(`#${URL}`).href = url;
@@ -140,6 +140,7 @@ class ProjectCard extends HTMLElement {
     ? generateTextTemplate(this.title)
     : generateTemplate({
        imageHigh: this.imagehigh,
+       imageMedium: this.imagemedium,
        url: this.url,
        description: this.description,
        title: this.title,
