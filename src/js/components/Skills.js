@@ -9,7 +9,7 @@ class Skills {
 
  generateSkill({ title, description, icon }) {
   return `<my-skill>
-    <span class="${icon}" slot="icon"></span>
+  <img slot="icon" src="/assets/icons/${icon}.svg" alt="${icon}-img" />
     <span
     class="text-white font-sen font-bold text-2xl leading-[29px]"
     slot="title"

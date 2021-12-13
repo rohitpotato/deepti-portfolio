@@ -7,7 +7,7 @@ template.innerHTML = `
  class="w-full bg-primary-color-dark flex items-center gap-8 lg:px-[72px] md:px-10 px-5 sticky top-0 left-0 z-10"
 >
  <a id="home" href="#">
-  <span class="icon-pen" />
+  <img src="/assets/icons/home.svg" alt='home-icon' />
  </a>
  <div class="ml-auto gap-8 flex">
   <a
@@ -44,7 +44,7 @@ template.innerHTML = `
    Resume
   </a>
   <a id="menu-toggle" class="py-8 px-6 cursor-pointer flex items-center md:hidden">
-   <span class="icon-puzzle" />
+  <img src="/assets/icons/menu.svg" />
   </a>
  </div>
 </header>

@@ -1,7 +1,7 @@
 const template = document.createElement('template');
 template.innerHTML = `
 <div
-class="lg:mt-64 md:mt-24 mt-[72px] lg:px-[72px] md:px-10 px-5 w-full gap-12 flex lg:flex-row flex-col"
+class="lg:mt-64 md:mt-24 mt-[72px] lg:px-[72px] md:px-10 px-5 w-full gap-12 flex flex-col items-center justify-center text-center"
 id="contact-me"
 >
 <div id="contact-heading">
@@ -17,10 +17,10 @@ id="contact-me"
 </div>
 <div
  id="contacts-block"
- class="py-10 px-6 card-bg space-y-6 lg:w-[45%] md:w-1/2 w-full md:text-center text-left"
+ class="py-10 px-6 card-bg space-y-6 lg:w-[45%] md:w-1/2 w-full md:text-center text-center"
 >
  <div class="flex items-center gap-4">
-  <span class="icon-phone"></span>
+ <img src="/assets/icons/phone.svg" />
   <a
    href="tel:+91 9648230338"
    class="text-light-text font-sen text-sm leading-4 hover:underline"
@@ -28,7 +28,7 @@ id="contact-me"
   >
  </div>
  <div class="flex items-center gap-4">
-  <span class="icon-mail"></span>
+ <img src="/assets/icons/mail.svg" />
   <a
    href="mailto:deepti.mmm98@gmail.com"
    target="blank"
@@ -37,7 +37,7 @@ id="contact-me"
   >
  </div>
  <div class="flex items-center gap-4">
-  <span class="icon-mail"></span>
+ <img src="/assets/icons/linkedin.svg" />
   <a
    target="blank"
    href="https://linkedin.com/in/theinfamoustomato218/"
@@ -46,7 +46,7 @@ id="contact-me"
   >
  </div>
  <div class="flex items-center gap-4">
-  <span class="icon-behance"></span>
+ <img src="/assets/icons/behance.svg" />
   <a
    target="blank"
    href="https://behance.net/deeptiverma"
@@ -55,7 +55,7 @@ id="contact-me"
   >
  </div>
  <div class="flex items-center gap-4">
-  <span class="icon-dribbble"></span>
+ <img src="/assets/icons/dribbble.svg" />
   <a
    target="blank"
    href="https://dribbble.com/theinfamoustomato218"

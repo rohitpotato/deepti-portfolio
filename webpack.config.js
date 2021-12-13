@@ -1,8 +1,11 @@
 /* eslint-disable import/no-dynamic-require */
+/** @type {import('webpack').Configuration} */
+
 const path = require('path');
 const webpack = require('webpack');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const { merge } = require('webpack-merge');
 const loadPreset = require('./config/presets/loadPreset');
 
@@ -40,7 +43,12 @@ module.exports = (env) => {
      },
      {
       test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
-      type: 'asset/inline',
+      use: {
+       loader: 'asset/inline',
+       options: {
+        url: false,
+       },
+      },
      },
      {
       test: /\.html$/,
@@ -53,6 +61,18 @@ module.exports = (env) => {
    plugins: [
     new CleanWebpackPlugin(),
     new webpack.ProgressPlugin(),
+    new CopyWebpackPlugin({
+     patterns: [
+      {
+       from: path.resolve(__dirname, 'public'),
+       to: 'assets',
+       globOptions: {
+        ignore: ['*.DS_Store'],
+       },
+       noErrorOnMissing: true,
+      },
+     ],
+    }),
     new HTMLWebpackPlugin({
      template: path.resolve(__dirname, './src/index.html'),
      filename: 'index.html',
@@ -63,7 +83,12 @@ module.exports = (env) => {
     }),
    ],
    resolve: {
-    modules: [path.resolve(__dirname, 'src'), 'node_modules'],
+    modules: [path.resolve(__dirname, './src'), 'node_modules'],
+    extensions: ['.js', '.jsx', '.json'],
+    alias: {
+     '@': path.resolve(__dirname, 'src'),
+     assets: path.resolve(__dirname, 'public'),
+    },
    },
   },
   loadConfig(mode),

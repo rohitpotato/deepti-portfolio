@@ -1,9 +1,10 @@
 export const iconMapping = {
- puzzle: 'icon-puzzle',
- pen: 'icon-pen',
- play: 'icon-play',
- smartphone: 'icon-smartphone',
+ puzzle: 'puzzle',
+ pen: 'pen',
+ play: 'play',
+ smartphone: 'smartphone',
  vector: 'vector',
+ smiley: 'smiley',
 };
 
 export const totalWorkExperience = [
@@ -32,7 +33,7 @@ export const skills = [
  {
   title: 'User Experience Design',
   description: `The fact that I worked mostly on user interfaces, I try to learn UX principals whenever I get time. `,
-  icon: iconMapping.vector,
+  icon: iconMapping.smiley,
  },
  {
   title: 'Wireframing & Prototyping',
@@ -61,10 +62,10 @@ export const projects = [
  {
   images: {
    high:
-    'https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/high/cigateway.png',
+    'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639201391/deepti-portfolio/desktop/MacBook_Pro_1_yhu1is.webp',
    medium:
-    'https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/medium/cigateway.png',
-   low: 'https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/low/cigateway.png',
+    'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202203/deepti-portfolio/tablet/cisco_gz9s39.webp',
+   low: 'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202203/deepti-portfolio/tablet/cisco_gz9s39.webp',
   },
   url: '',
   title: 'Cisco-CI Gateway Search Engine',
@@ -75,10 +76,10 @@ export const projects = [
  {
   images: {
    high:
-    'https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/high/ghd.png',
+    'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639201391/deepti-portfolio/desktop/MacBook_Pro_2_n4m9pj.webp',
    medium:
-    'https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/medium/ghd.png',
-   low: 'https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/high/low.png',
+    'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202202/deepti-portfolio/tablet/ghd_anjl0e.webp',
+   low: 'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202202/deepti-portfolio/tablet/ghd_anjl0e.webp',
   },
   url: '',
   title: 'GHD Emmision Web Application',
@@ -89,10 +90,10 @@ export const projects = [
  {
   images: {
    high:
-    'https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/high/toronto.png',
+    'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639201391/deepti-portfolio/desktop/MacBook_Pro_3_xq5zvt.webp',
    medium:
-    'https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/medium/toronto.png',
-   low: 'https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/low/toronto.png',
+    'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202203/deepti-portfolio/tablet/toronto_es5hvq.webp',
+   low: 'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202203/deepti-portfolio/tablet/toronto_es5hvq.webp',
   },
   url: '',
   title: 'Residual Waste Forcasting Tool',
@@ -103,10 +104,10 @@ export const projects = [
  {
   images: {
    high:
-    'https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/high/clorox.png',
+    'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639201391/deepti-portfolio/desktop/Screen_Phone_2_oae5sl.webp',
    medium:
-    'https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/medium/clorox.png',
-   low: 'https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/low/clorox.png',
+    'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202203/deepti-portfolio/tablet/Screen_Phone_2_jlxwwt.webp',
+   low: 'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202203/deepti-portfolio/tablet/Screen_Phone_2_jlxwwt.webp',
   },
   url: '',
   title: 'CLOROX DailyBriefing Mobile App',
@@ -121,10 +122,10 @@ export const projects = [
  {
   images: {
    high:
-    'https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/high/whatsapp.png',
+    'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639201391/deepti-portfolio/desktop/Group_1_8_arzi9v.webp',
    medium:
-    'https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/high/whatsapp.png',
-   low: 'https://deepti-portfolio.s3.ap-south-1.amazonaws.com/images/high/whatsapp.png',
+    'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202204/deepti-portfolio/tablet/whatsapp_rh7soh.webp',
+   low: 'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202204/deepti-portfolio/tablet/whatsapp_rh7soh.webp',
   },
   url: '',
   title: 'Whatsapp Redesign',
