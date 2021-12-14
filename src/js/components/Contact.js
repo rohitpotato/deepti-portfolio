@@ -20,7 +20,7 @@ id="contact-me"
  class="py-10 px-6 card-bg space-y-6 lg:w-[45%] md:w-1/2 w-full md:text-center text-center"
 >
  <div class="flex items-center gap-4">
- <img src="/assets/icons/phone.svg" />
+ <img height=28 width=28 src="/assets/icons/phone.svg" />
   <a
    href="tel:+91 9648230338"
    class="text-light-text font-sen text-sm leading-4 hover:underline"
@@ -28,7 +28,7 @@ id="contact-me"
   >
  </div>
  <div class="flex items-center gap-4">
- <img src="/assets/icons/mail.svg" />
+ <img height=28 width=28 src="/assets/icons/mail.svg" />
   <a
    href="mailto:deepti.mmm98@gmail.com"
    target="blank"
@@ -37,7 +37,7 @@ id="contact-me"
   >
  </div>
  <div class="flex items-center gap-4">
- <img src="/assets/icons/linkedin.svg" />
+ <img height=28 width=28 src="/assets/icons/linkedin.svg" />
   <a
    target="blank"
    href="https://linkedin.com/in/theinfamoustomato218/"
@@ -46,7 +46,7 @@ id="contact-me"
   >
  </div>
  <div class="flex items-center gap-4">
- <img src="/assets/icons/behance.svg" />
+ <img height=28 width=28 src="/assets/icons/behance.svg" />
   <a
    target="blank"
    href="https://behance.net/deeptiverma"
@@ -55,7 +55,7 @@ id="contact-me"
   >
  </div>
  <div class="flex items-center gap-4">
- <img src="/assets/icons/dribbble.svg" />
+ <img height=28 width=28 src="/assets/icons/dribbble.svg" />
   <a
    target="blank"
    href="https://dribbble.com/theinfamoustomato218"

@@ -8,7 +8,7 @@ template.innerHTML = `
         srcset="https://res.cloudinary.com/dh14yyu2p/image/upload/v1639201391/deepti-portfolio/desktop/rafiki_f6mvaw.webp">
     <source media="(min-width: 320px)"
         srcset="https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202203/deepti-portfolio/tablet/hero2_hqwkma.webp">
-    <img class="object-contain md:absolute top-1/2 left-[65%] md:-translate-x-2/4 md:-translate-y-2/4 md:scale-125 md:mt-0 -mb-10"
+    <img class="object-contain md:absolute top-1/2 left-[65%] md:-translate-x-2/4 md:-translate-y-2/4 md:scale-125 md:mt-0 -mb-10 md:w-[620px] w-[320px] md:h-[460px] h-[260px]"
         src="https://res.cloudinary.com/dh14yyu2p/image/upload/v1639201391/deepti-portfolio/desktop/rafiki_f6mvaw.webp" alt="This cat is all business">
 </picture>
 </div>
@@ -39,6 +39,7 @@ template.innerHTML = `
   </div>
   <div class="mt-[72px]" id="get-in-touch-cta">
    <a
+    href="#contact-me"
     class="leading-6 bg-primary-purple text-white px-6 py-3 rounded-lg font-bold text-sm md:text-base lg:text-lg"
     >Get in Touch</a
    >

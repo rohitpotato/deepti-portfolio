@@ -62,10 +62,10 @@ export const projects = [
  {
   images: {
    high:
-    'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639201391/deepti-portfolio/desktop/MacBook_Pro_1_yhu1is.webp',
+    'https://res.cloudinary.com/db3pspm7t/image/upload/v1639483102/desktop/CISCO_iugrjr.webp',
    medium:
-    'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202203/deepti-portfolio/tablet/cisco_gz9s39.webp',
-   low: 'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202203/deepti-portfolio/tablet/cisco_gz9s39.webp',
+    'https://res.cloudinary.com/db3pspm7t/image/upload/v1639483145/mobile/CISCO_hp02z5.webp',
+   low: 'https://res.cloudinary.com/db3pspm7t/image/upload/v1639483145/mobile/CISCO_hp02z5.webp',
   },
   url: '',
   title: 'Cisco-CI Gateway Search Engine',
@@ -76,10 +76,10 @@ export const projects = [
  {
   images: {
    high:
-    'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639201391/deepti-portfolio/desktop/MacBook_Pro_2_n4m9pj.webp',
+    'https://res.cloudinary.com/db3pspm7t/image/upload/v1639483102/desktop/GHD_ccs7cf.webp',
    medium:
-    'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202202/deepti-portfolio/tablet/ghd_anjl0e.webp',
-   low: 'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202202/deepti-portfolio/tablet/ghd_anjl0e.webp',
+    'https://res.cloudinary.com/db3pspm7t/image/upload/v1639483145/mobile/GHD_x2uc0h.webp',
+   low: 'https://res.cloudinary.com/db3pspm7t/image/upload/v1639483145/mobile/GHD_x2uc0h.webp',
   },
   url: '',
   title: 'GHD Emmision Web Application',
@@ -90,10 +90,10 @@ export const projects = [
  {
   images: {
    high:
-    'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639201391/deepti-portfolio/desktop/MacBook_Pro_3_xq5zvt.webp',
+    'https://res.cloudinary.com/db3pspm7t/image/upload/v1639483102/desktop/TORONTO_cpljja.webp',
    medium:
-    'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202203/deepti-portfolio/tablet/toronto_es5hvq.webp',
-   low: 'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202203/deepti-portfolio/tablet/toronto_es5hvq.webp',
+    'https://res.cloudinary.com/db3pspm7t/image/upload/v1639483145/mobile/Toronto_erthl2.webp',
+   low: 'hhttps://res.cloudinary.com/db3pspm7t/image/upload/v1639483145/mobile/Toronto_erthl2.webp',
   },
   url: '',
   title: 'Residual Waste Forcasting Tool',
@@ -104,10 +104,10 @@ export const projects = [
  {
   images: {
    high:
-    'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639201391/deepti-portfolio/desktop/Screen_Phone_2_oae5sl.webp',
+    'https://res.cloudinary.com/db3pspm7t/image/upload/v1639483102/desktop/CLOROX_jdhgl8.webp',
    medium:
-    'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202203/deepti-portfolio/tablet/Screen_Phone_2_jlxwwt.webp',
-   low: 'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202203/deepti-portfolio/tablet/Screen_Phone_2_jlxwwt.webp',
+    'https://res.cloudinary.com/db3pspm7t/image/upload/v1639483145/mobile/Clorox_zpfk2e.webp',
+   low: 'https://res.cloudinary.com/db3pspm7t/image/upload/v1639483145/mobile/Clorox_zpfk2e.webp',
   },
   url: '',
   title: 'CLOROX DailyBriefing Mobile App',
@@ -122,10 +122,10 @@ export const projects = [
  {
   images: {
    high:
-    'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639201391/deepti-portfolio/desktop/Group_1_8_arzi9v.webp',
+    'https://res.cloudinary.com/db3pspm7t/image/upload/v1639483103/desktop/Whatsapp_d4sosc.webp',
    medium:
-    'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202204/deepti-portfolio/tablet/whatsapp_rh7soh.webp',
-   low: 'https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202204/deepti-portfolio/tablet/whatsapp_rh7soh.webp',
+    'https://res.cloudinary.com/db3pspm7t/image/upload/v1639483146/mobile/Whatsapp_k2s9lc.webp',
+   low: 'https://res.cloudinary.com/db3pspm7t/image/upload/v1639483146/mobile/Whatsapp_k2s9lc.webp',
   },
   url: '',
   title: 'Whatsapp Redesign',

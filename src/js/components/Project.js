@@ -19,7 +19,7 @@ template.innerHTML = `
                 id="image"
                 alt="project-img"
                 loading="lazy"
-                class=" max-w-full max-h-full m-0 p-0 object-contain absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
+                class=" object-fit max-w-[90%] max-h-[90%] m-0 p-0 object-contain absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
             />
         </picture>
     </div>
