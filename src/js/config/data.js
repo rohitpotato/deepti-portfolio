@@ -69,8 +69,7 @@ export const projects = [
   },
   url: '',
   title: 'Cisco-CI Gateway Search Engine',
-  description:
-   'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i',
+  description: `A search Engine for Cisco's Wallroom Managers to get all the information regarding their enterprise application.`,
   type: 'professional',
  },
  {
@@ -84,7 +83,7 @@ export const projects = [
   url: '',
   title: 'GHD Emmision Web Application',
   description:
-   'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i',
+   'This application is built to track all the emmision produced by GHD group, to take necessary precautions and later show the records to government bodies.',
   type: 'professional',
  },
  {
@@ -98,7 +97,7 @@ export const projects = [
   url: '',
   title: 'Residual Waste Forcasting Tool',
   description:
-   'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i',
+   'With the help of this tool, all kinds of waste in the whole Toronto city can be tracked, to take precautionary actions to avoid pollution.',
   type: 'professional',
  },
  {
@@ -112,7 +111,7 @@ export const projects = [
   url: '',
   title: 'CLOROX DailyBriefing Mobile App',
   description:
-   'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i',
+   'This application is built for the CXOs of The Clorox Company, to track the progress and performance of all the CLOROX products across the market.',
   type: 'professional',
  },
  {
@@ -129,8 +128,8 @@ export const projects = [
   },
   url: '',
   title: 'Whatsapp Redesign',
-  description:
-   'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the i',
+  description: `This was the first UI practice project. 
+   This redesign aims to offer a much more interactive user experience and expands on the existing brand language and design by giving users clean and sophisticated interfaces.`,
   type: 'personal',
  },
 ];

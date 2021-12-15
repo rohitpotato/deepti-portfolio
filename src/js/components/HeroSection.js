@@ -1,7 +1,7 @@
 const template = document.createElement('template');
 template.id = 'hero';
 template.innerHTML = `   
-<div class="flex flex-col md:flex-row">
+<section class="flex flex-col md:flex-row">
 <div class="hero-image md:w-[40%] relative md:block flex justify-center">
 <picture>
     <source media="(min-width: 960px)"
@@ -46,7 +46,7 @@ template.innerHTML = `
   </div>
  </div>
 </div>
-</div>
+</section>
 `;
 
 class HeroSection extends HTMLElement {

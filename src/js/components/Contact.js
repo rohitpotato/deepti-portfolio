@@ -1,6 +1,6 @@
 const template = document.createElement('template');
 template.innerHTML = `
-<div
+<footer
 class="lg:mt-64 md:mt-24 mt-[72px] lg:px-[72px] md:px-10 px-5 w-full gap-12 flex flex-col items-center justify-center text-center"
 id="contact-me"
 >
@@ -64,7 +64,7 @@ id="contact-me"
   >
  </div>
 </div>
-</div>
+</footer>
 `;
 
 class Contact extends HTMLElement {
