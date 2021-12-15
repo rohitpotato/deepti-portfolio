@@ -29,7 +29,7 @@ template.innerHTML = `
     </div>
     <div id="description" class="text-base font-sen text-dark-text leading-6">$</div>
     <a id="url" href="" class="font-sen text-white hover:underline"
-    >View Case Study</a>
+    >Case Study Coming soon</a>
 </div>
 </div>
 `;
