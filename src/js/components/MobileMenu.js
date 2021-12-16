@@ -1,3 +1,6 @@
+import { resumeLink } from '../config/data';
+import { idsToRoutes, linkIds } from '../config/constants';
+
 const template = document.createElement('template');
 template.innerHTML = `
 <div
@@ -9,14 +12,21 @@ class="fixed z-20 top-0 left-0 h-screen w-screen backdrop-filter backdrop-bright
 </button>
 <div class="flex gap-10 flex-col text-center">
  <a class="font-sen text-2xl text-white leading-4" id="nav-link" href="#">Home</a>
- <a class="font-sen text-2xl text-white leading-4" id="nav-link" href="#experience"
+ <a class="font-sen text-2xl text-white leading-4" id="nav-link" href="#${
+  idsToRoutes[linkIds.experience]
+ }"
   >Experience</a
  >
- <a class="font-sen text-2xl text-white leading-4" id="nav-link" href="#my-workflow"
+ <a class="font-sen text-2xl text-white leading-4" id="nav-link" href="#${
+  idsToRoutes[linkIds.workflow]
+ }"
   >Workflow</a
  >
- <a class="font-sen text-2xl text-white leading-4" id="nav-link" href="#my-projects">Work</a>
- <a class="font-sen text-2xl text-white leading-4" id="nav-link" href="#">Resume</a>
+ <a class="font-sen text-2xl text-white leading-4" id="nav-link" href="#${
+  idsToRoutes[linkIds.projects]
+ }">Work</a>
+ <a class="font-sen text-2xl text-white leading-4" id="nav-link" href="${resumeLink}"
+ target="_blank">Resume</a>
 </div>
 </div>
 `;

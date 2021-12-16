@@ -133,3 +133,6 @@ export const projects = [
   type: 'personal',
  },
 ];
+
+export const resumeLink =
+ 'https://drive.google.com/file/d/16EaWy5PWNPYr-Z2wMKTFIVEYeOUukkzo/view?usp=drivesdk';

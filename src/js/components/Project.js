@@ -28,13 +28,13 @@ template.innerHTML = `
     <div id="title" class="font-sen font-bold text-white text-base leading-[29px]">
     </div>
     <div id="description" class="text-base font-sen text-dark-text leading-6">$</div>
-    <a id="url" href="" class="font-sen text-white hover:underline"
+    <a id="url" class="font-sen text-white hover:underline"
     >Case Study Coming soon</a>
 </div>
 </div>
 `;
 
-textTemplate.innerHTML = `<div class="lg:text-[54px] text-3xl text-white font-sen font-bold lg:leading-[66px] grid-item full" id="title"></div>`;
+textTemplate.innerHTML = `<div class="lg:text-[40px] text-3xl text-white font-sen font-bold lg:leading-[66px] grid-item full" id="title"></div>`;
 
 const generateTemplate = ({
  url,

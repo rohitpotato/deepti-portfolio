@@ -4,6 +4,7 @@
 
 html {
  scroll-behavior: smooth;
+ scroll-margin-top: 100px;
 }
 
 body {
@@ -73,6 +74,12 @@ body {
  .grid-col--3 {
   display: block;
  } /* show column 3 */
+}
+
+@media (max-width: 768px) {
+ .grid-col--1 {
+  margin-right: 0;
+ }
 }
 
 .card-bg {

@@ -13,7 +13,7 @@ template.innerHTML = `
 </picture>
 </div>
 <div
- class="bg-primary-color-dark flex items-center justify-center md:w-[60%] pt-[120px] py-[72px] pl-[10%] pr-[1%] md:pr-[5%]"
+ class="bg-primary-color-dark flex items-center justify-center md:w-[60%] pt-[120px] py-[72px] md:pl-[10%] lg:pr-[1%] px-5 md:pr-[5%]"
  id="intro-primary-heading"
 >
  <div>

@@ -1,4 +1,5 @@
-import routes from '../config/constants';
+import routes, { linkIds, idsToRoutes } from '../config/constants';
+import { resumeLink } from '../config/data';
 
 const template = document.createElement('template');
 template.id = 'project-header';
@@ -11,39 +12,41 @@ template.innerHTML = `
  </a>
  <div class="ml-auto gap-8 flex items-center">
   <a
-  id="experience-link"
-   href="#experience"
+  id="${linkIds.experience}"
+   href="#${idsToRoutes[linkIds.experience]}"
    class="font-sen text-light-text py-8 px-6 cursor-pointer lg:flex items-center hidden"
   >
    Experience
   </a>
   <a
-  id="workflow-link"
-   href="#my-workflow"
+  id="${linkIds.workflow}"
+  href="#${idsToRoutes[linkIds.workflow]}"
    class="font-sen text-light-text py-8 px-6 cursor-pointer lg:flex items-center hidden"
   >
    Workflow
   </a>
   <a
-  id="projects-link"
-   href="#my-projects"
+  id="${linkIds.projects}"
+  href="#${idsToRoutes[linkIds.projects]}"
    class="font-sen text-light-text py-8 px-6 cursor-pointer lg:flex items-center hidden"
   >
    Work
   </a>
   <a
-  id="contact-link"
-   href="#contact-me"
+  id="${linkIds.contact}"
+  href="#${idsToRoutes[linkIds.contact]}"
    class="font-sen text-light-text py-8 px-6 cursor-pointer hidden sm:flex items-center"
   >
    Contact Me
   </a>
   <a
-   class="font-sen text-light-text py-8 px-6 cursor-pointer hidden sm:flex items-center text-center"
+    href="${resumeLink}"
+    target="_blank"
+   class="font-sen text-light-text py-8 px-6 cursor-pointer flex items-center text-center"
   >
    Resume
   </a>
-  <a id="menu-toggle" class="py-8 px-6 cursor-pointer flex items-center md:hidden">
+  <a id="menu-toggle" class="py-8 cursor-pointer flex items-center md:hidden">
   <img height=28 width=28 src="/assets/icons/menu.svg" />
   </a>
  </div>

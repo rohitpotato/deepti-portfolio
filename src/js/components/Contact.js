@@ -17,7 +17,7 @@ id="contact-me"
 </div>
 <div
  id="contacts-block"
- class="py-10 px-6 card-bg space-y-6 lg:w-[45%] md:w-1/2 w-full md:text-center text-center"
+ class="py-10 px-6 card-bg space-y-6 lg:w-[50%] md:w-[60%] w-full md:text-center text-center"
 >
  <div class="flex items-center gap-4">
  <img height=28 width=28 src="/assets/icons/phone.svg" />

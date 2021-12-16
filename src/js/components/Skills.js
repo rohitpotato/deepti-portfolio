@@ -17,7 +17,7 @@ class Skills {
         ${title}
     </span>
     <span
-    class="text-light-text font-sen text-base leading-[150%]"
+    class="text-light-text font-sen text-base leading-[150%] block mt-3"
     slot="description"
     >
         ${description}
