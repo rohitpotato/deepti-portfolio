@@ -6,7 +6,7 @@ id="contact-me"
 >
 <div id="contact-heading">
  <div
-  class="lg:text-[54px] text-3xl text-white font-sen font-bold leading-[66px]"
+  class="lg:text-[40px] text-3xl text-white font-sen font-bold leading-[66px]"
  >
   Contact Me
  </div>
