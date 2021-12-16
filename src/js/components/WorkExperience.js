@@ -11,9 +11,9 @@ containerTemplate.innerHTML = `
 const experienceTemplate = document.createElement('template');
 experienceTemplate.innerHTML = `
 <div class="flex gap-2 flex-wrap" id="experience">
-            <div class="text-2xl font-sen font-bold text-green-1" id="company"></div>
-            <div class="text-2xl font-sen font-bold text-white" id="duration"></div>
-            <div class="text-2xl font-sen font-bold text-green-2 text-opacity-60" id="position"></div>
+            <div class="md:text-2xl text-lg font-sen font-bold text-green-1" id="company"></div>
+            <div class="md:text-2xl text-lg font-sen font-bold text-white" id="duration"></div>
+            <div class="md:text-2xl text-lg font-sen font-bold text-green-2 text-opacity-60" id="position"></div>
         </div>`;
 
 class WorkExperience {
