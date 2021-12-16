@@ -46,7 +46,7 @@ template.innerHTML = `
   >
    Resume
   </a>
-  <a id="menu-toggle" class="py-8 cursor-pointer flex items-center md:hidden">
+  <a id="menu-toggle" class="py-8 cursor-pointer flex items-center lg:hidden">
   <img height=28 width=28 src="/assets/icons/menu.svg" />
   </a>
  </div>
