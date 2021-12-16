@@ -5,11 +5,11 @@ template.innerHTML = `
 <div class="hero-image md:w-[40%] relative md:block flex justify-center">
 <picture>
     <source media="(min-width: 960px)"
-        srcset="https://res.cloudinary.com/dh14yyu2p/image/upload/v1639201391/deepti-portfolio/desktop/rafiki_f6mvaw.webp">
+        srcset="https://res.cloudinary.com/db3pspm7t/image/upload/v1639635903/desktop/rafiki_Desktop_ioihbt.webp">
     <source media="(min-width: 320px)"
-        srcset="https://res.cloudinary.com/dh14yyu2p/image/upload/v1639202203/deepti-portfolio/tablet/hero2_hqwkma.webp">
+        srcset="https://res.cloudinary.com/db3pspm7t/image/upload/v1639635908/mobile/rafiki_tablet_cfbcad.webp">
     <img class="object-contain md:absolute top-1/2 left-[65%] md:-translate-x-2/4 md:-translate-y-2/4 md:scale-125 md:mt-0 -mb-10 md:w-[620px] w-[320px] md:h-[460px] h-[260px]"
-        src="https://res.cloudinary.com/dh14yyu2p/image/upload/v1639201391/deepti-portfolio/desktop/rafiki_f6mvaw.webp" alt="This cat is all business">
+        src="https://res.cloudinary.com/db3pspm7t/image/upload/v1639635903/desktop/rafiki_Desktop_ioihbt.webp" alt="This cat is all business">
 </picture>
 </div>
 <div
