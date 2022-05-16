@@ -20,6 +20,13 @@ export const totalWorkExperience = [
    duration: '(Oct 21, 2020 - Feb 14, 2021)',
   },
  ],
+ [
+  {
+   company: 'Accenture AI',
+   position: 'UX Engineering Analyst',
+   duration: '(May 1, 2022 - Current)',
+  },
+ ],
 ];
 
 export const skillsetDescription = `As I am a junior designer, I’m still learning everyday. And here are some of the skills that I gained in previous one and a half year of working in BRIDGEi2i.`;
