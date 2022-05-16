@@ -11,13 +11,13 @@ export const totalWorkExperience = [
  [
   {
    company: 'BRIDGEi2i Analytics Solution Pvt. Ltd,',
-   position: 'Jr. UI/UX Designer',
-   duration: '(Feb 15, 2021 - Present)',
+   position: 'User Experience Design Intern',
+   duration: '(Oct 21, 2020 - Feb 14, 2021)',
   },
   {
    company: 'BRIDGEi2i Analytics Solution Pvt. Ltd,',
-   position: 'User Experience Design Intern',
-   duration: '(Oct 21, 2020 - April 30, 2022)',
+   position: 'Jr. UI/UX Designer',
+   duration: '(Feb 15, 2021 - April 30, 2022)',
   },
  ],
  [
