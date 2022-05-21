@@ -13,6 +13,7 @@ body {
 
 .intro-heading {
  font-size: clamp(2rem, 5vw, 4.5rem);
+ line-height: 1.2;
 }
 
 .work-experience-heading {

@@ -28,16 +28,18 @@ template.innerHTML = `
     <div id="title" class="font-sen font-bold text-white text-base leading-[29px]">
     </div>
     <div id="description" class="text-base font-sen text-dark-text leading-6">$</div>
-    <a id="url" class="font-sen text-white hover:underline"
-    >Case Study Coming soon</a>
+   
 </div>
 </div>
 `;
 
+/* <a id="url" class="font-sen text-white hover:underline"
+>Case Study Coming soon</a> */
+
 textTemplate.innerHTML = `<div class="lg:text-[40px] text-3xl text-white font-sen font-bold lg:leading-[66px] grid-item full" id="title"></div>`;
 
 const generateTemplate = ({
- url,
+ //  url,
  imageHigh,
  imageMedium,
  imageLow,
@@ -51,7 +53,7 @@ const generateTemplate = ({
  pElement.querySelector('img').src = imageHigh;
  clone.querySelector(`#${TITLE}`).textContent = title;
  clone.querySelector(`#${DECSRIPTION}`).textContent = description;
- clone.querySelector(`#${URL}`).href = url;
+ //  clone.querySelector(`#${URL}`).href = url;
  return clone;
 };
 
@@ -68,9 +70,9 @@ class ProjectCard extends HTMLElement {
  connectedCallback() {
   //   this.id = 'grid-item';
   this.render();
-  if (!this.url) {
-   this.setAttribute(URL, '#');
-  }
+  //   if (!this.url) {
+  //    this.setAttribute(URL, '#');
+  //   }
  }
 
  attributeChangedCallback(name, oldValue, newValue) {
@@ -118,13 +120,13 @@ class ProjectCard extends HTMLElement {
   this.setAttribute(DECSRIPTION, newValue);
  }
 
- get url() {
-  return this.getAttribute(URL);
- }
+ //  get url() {
+ //   return this.getAttribute(URL);
+ //  }
 
- set url(newValue) {
-  this.setAttribute(URL, newValue);
- }
+ //  set url(newValue) {
+ //   this.setAttribute(URL, newValue);
+ //  }
 
  get type() {
   return this.getAttribute(TYPE);
